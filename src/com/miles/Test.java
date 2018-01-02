@@ -43,6 +43,7 @@ public class Test {
 		}finally {
 			if (conn!=null) {
 				try {
+					//关闭数据库连接
 					conn.close();
 				} catch (SQLException e) {
 					// TODO Auto-generated catch block
